@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testg
+  description: t
+  annotations: 
+    github.com/project-slug: blamdemo/testgoguest
+backstage.io/github-actions-id: blamdemo/testgoguest
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
